@@ -3,6 +3,7 @@ import "./App.css";
 import Toggler from "./Toggler";
 import SimpleForm from "./SimpleForm";
 import ClickerEffect from "./ClickerEffect";
+import StarWarsAPI from './StarWarsAPI'
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <ClickerEffect />
       <Toggler />
       <SimpleForm />
+      <StarWarsAPI />
     </div>
   );
 }

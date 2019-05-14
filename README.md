@@ -10,3 +10,4 @@
 
 1. Toggler
 2. Simple Form
+3. Clicker (with `useEffect()`)

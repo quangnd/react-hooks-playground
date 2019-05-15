@@ -9,8 +9,8 @@ function SimpleForm() {
     <div>
       <h1>Simple form</h1>
       <p>Username: {username} & Password: {password} </p>
-      <input type="text" value={username} onChange={handleUsernameChange} />
-      <input type="text" value={password} onChange={handlePasswordChange} />
+      <input type="text" value={username} placeholder="enter username" onChange={handleUsernameChange} />
+      <input type="text" value={password} placeholder="enter password" onChange={handlePasswordChange} />
       <button onClick={resetUsername}>Reset username</button>
       <button onClick={resetPassword}>Reset password</button>
     </div>

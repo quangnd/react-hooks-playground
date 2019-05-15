@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-function useToggle(initialVal) {
+function useFormState(initialVal) {
   const [value, setValue] = useState(initialVal);
   const handleChange = e => {
     setValue(e.target.value);
@@ -11,4 +11,4 @@ function useToggle(initialVal) {
   return [value, handleChange, reset];
 }
 
-export default useToggle;
+export default useFormState;

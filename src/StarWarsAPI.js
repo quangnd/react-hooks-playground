@@ -11,7 +11,7 @@ function StarWarsAPI() {
     async function getData() {
       const api = `https://swapi.co/api/films/${number}/`;
       const response = await axios.get(api);
-      console.log(response.data);
+
       setMovie(response.data);
       toggleIsLoading(!isLoading);
     }
